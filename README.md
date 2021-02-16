@@ -15,7 +15,7 @@ A min heap is a binary tree data structure. Its defining features are (1) that e
 
 ## Optional Dependencies
 
-Tree visualization: `binarytree`
+Tree visualization: [`binarytree`](https://pypi.org/project/binarytree/)
 
 ## Usage
 
