@@ -2,6 +2,11 @@ from random import *
 import sys
 import getopt
 
+try:
+    from binarytree import build
+except:
+    print("Binarytree package not detected. Tree visualization will not work.")
+
 
 min_heap = []
 
@@ -103,6 +108,7 @@ Generates random binary tree and constructs a min heap.
         print("(E)xtract item.")
         print("(O)utput min heap.")
         print("(R)econstruct min heap.")
+        print("(V)isualize tree")
         print("(Q)uit")
         user_choice = input_user_choice()
         # Add item
@@ -119,6 +125,12 @@ Generates random binary tree and constructs a min heap.
         # Reconstruct min heap
         elif user_choice == "R":
             construct_heap()
+        elif user_choice == "V":
+            # try:
+            tree = build(min_heap)
+            print(tree)
+            # except:
+            #     print("Unknown error.")
         # Quit
         elif user_choice == "Q":
             waiting_for_input = False
