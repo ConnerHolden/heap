@@ -2,7 +2,7 @@
 
 [*Introduction*](#introduction)  
 [*What is a Min Heap?*](#what-is-a-min-heap?)  
-[*Optional Dependencies*](#optional-dependencies)
+[*Optional Dependencies*](#optional-dependencies)  
 [*Usage*](#usage)
 
 ## Introduction
